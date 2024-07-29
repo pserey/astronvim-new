@@ -5,8 +5,7 @@
       "# Function to display help",
       "show_help() {",
       "\tcat << EOF",
-      "Usage: $0 <arg1> [<o1>]\n",
-      "<description>\n",
+      "Usage: ./\$0 <arg1> [<o1>]\n",
       "Options:",
       "\t-h, --help    Show this help message and exit.",
       "\t<o1>, <o2>    <description>\n",
@@ -15,7 +14,7 @@
       "EOF",
       "}\n",
       "# Check if the help flag is provided",
-      "if [ '$1' == '-h' ] || [ '$1' == '--help' ]; then",
+      "if [ \$1 == '-h' ] || [ \$1 == '--help' ]; then",
       "\tshow_help",
       "\texit 0",
       "fi"
