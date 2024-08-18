@@ -64,6 +64,7 @@ return {
 
         -- setting a mapping to false will disable it
         -- ["<C-S>"] = false,
+        ["<Leader>md"] = { "<cmd>MarkdownPreview<cr>", desc = "Start markdown preview" }
       },
     },
   },
