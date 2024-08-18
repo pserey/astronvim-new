@@ -91,4 +91,10 @@
     end,
     ft = { "markdown" },
   },
+  {
+    "lambdalisue/suda.vim",
+    lazy = false,
+    -- cmd = { "SudaWrite", "SudaRead" },
+    init = function() vim.g.suda_smart_edit = 1 end,
+  }
 }

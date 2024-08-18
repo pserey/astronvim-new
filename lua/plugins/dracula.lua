@@ -3,5 +3,6 @@ return {
   name = "dracula",
   opts = {
     -- configuration options...
+    transparent_bg = true
   },
 }
