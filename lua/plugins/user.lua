@@ -78,7 +78,10 @@
             :with_cr(cond.none()),
         },
         -- disable for .vim files, but it work for another filetypes
-        Rule("a", "a", "-vim")
+        Rule("a", "a", "-vim"),
+        Rule("*", "*", "md"),
+        Rule("`", "`", "md"),
+        Rule("```", "```", "md")
       )
     end,
   },

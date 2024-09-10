@@ -11,7 +11,8 @@ return {
     smarttab = true,
     relativenumber = true,
     foldenable = false,
-    shell = "/usr/bin/zsh"
+    shell = "/usr/bin/zsh",
+    textwidth = 79,
   },
   g = {
     mapleader = " ", -- sets vim.g.mapleader
@@ -23,9 +24,12 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
     suda_smart_edit = 1,
-    mkdp_browser = "/usr/bin/brave-browser",
+    mkdp_browser = "/usr/bin/brave",
     mkdp_page_title = '「${name}」',
-    mkdp_theme = 'dark'
+    mkdp_theme = 'dark',
+    mkdp_open_ip = '127.0.0.1',
+    mkdp_port = '8383',
+    mkdp_auto_close = 0,
   },
 }
 -- If you need more control, you can use the function()...end notation
