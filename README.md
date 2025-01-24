@@ -6,6 +6,18 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
 
 ## 🛠️ Installation
 
+#### Install dependencies (Arch-based)
+
+- `nodejs`
+- `npm`
+- `yarn`
+- `ripgrep`
+- `pyright`
+
+```
+sudo pacman -S nodejs npm yarn ripgrep pyright
+```
+
 #### Make a backup of your current nvim and shared folder
 
 ```shell
