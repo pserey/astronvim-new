@@ -13,6 +13,8 @@ A template for getting started with [AstroNvim](https://github.com/AstroNvim/Ast
 - `yarn`
 - `ripgrep`
 - `pyright`
+- `wl-clipboard` (when using wayland)
+- `xclip` (when using Xorg)
 
 ```
 sudo pacman -S nodejs npm yarn ripgrep pyright
